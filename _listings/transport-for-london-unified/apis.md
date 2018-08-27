@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Centers
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/transport-for-london-unified/apis.md
 specificationVersion: "0.14"
 apis:
@@ -65,6 +65,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/transport-for-london-unified/traveltimesoverlayzmapcentermapcenterlatmapcenterlonpinlocationpinlatpinlondimensionswidthheight-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/transport-for-london-unified/traveltimesoverlayzmapcentermapcenterlatmapcenterlonpinlocationpinlatpinlondimensionswidthheight-get-openapi.md
+- name: Transport for London Unified - Travel Times overlay z mapcenter map Center
+    Lat map Center Lon pinlocation pin Lat pin Lon dimensions wth height
+  x-api-slug: traveltimesoverlayzmapcentermapcenterlatmapcenterlonpinlocationpinlatpinlondimensionswidthheight-get
+  description: Gets the traveltime overlay..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
+  humanURL: https://tfl.gov.uk/
+  baseURL: https://api.tfl.gov.uk//
+  tags: Transportation, Transit, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/transport-for-london-unified/traveltimesoverlayzmapcentermapcenterlatmapcenterlonpinlocationpinlatpinlondimensionswidthheight-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/transport-for-london-unified/traveltimesoverlayzmapcentermapcenterlatmapcenterlonpinlocationpinlatpinlondimensionswidthheight-get-openapi.md
+- name: Transport for London Unified - Travel Times compare Overlay z mapcenter map
+    Center Lat map Center Lon pinlocation pin Lat pin Lon dimensions wth height
+  x-api-slug: traveltimescompareoverlayzmapcentermapcenterlatmapcenterlonpinlocationpinlatpinlondimensionswidthheight-get
+  description: Gets the traveltime overlay..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
+  humanURL: https://tfl.gov.uk/
+  baseURL: https://api.tfl.gov.uk//
+  tags: Transportation, Transit, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/transport-for-london-unified/traveltimescompareoverlayzmapcentermapcenterlatmapcenterlonpinlocationpinlatpinlondimensionswidthheight-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/transport-for-london-unified/traveltimescompareoverlayzmapcentermapcenterlatmapcenterlonpinlocationpinlatpinlondimensionswidthheight-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://transitfeeds.api.gallery.streamdata.io

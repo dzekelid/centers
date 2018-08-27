@@ -12,11 +12,31 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Centers
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/open-science-framework/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Open Science Framework - Root
+  x-api-slug: get
+  description: |-
+    Welcome to the Open Science Framework API. With this API you can access users, projects, components, logs, and files from the [Open Science Framework](https://osf.io/). The Open Science Framework (OSF) is a free, open-source service maintained by the [Center for Open Science](http://cos.io/).
+
+    #### Returns
+    A JSON object with `meta` and `links` keys.
+
+    The `meta` key contains information such as a welcome message from the API, the specified version of the request, and the full representation of the current user, if authentication credentials were provided in the request.
+
+    The `links` key contains links to the following entity collections: [addons](), [collections](), [institutions](#Institutions_institutions_list), [licenses](#Licenses_license_list), [metaschemas](), [nodes](#Nodes_nodes_list), [registrations](), [users](#Users_users_list)
+  image: ""
+  humanURL: https://cos.io
+  baseURL: https://test-api.osf.io//v2
+  tags: Research, Science, API Provider, Profiles, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/open-science-framework/get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/centers/master/_listings/open-science-framework/get-openapi.md
 - name: Open Science Framework - Root
   x-api-slug: get
   description: |-
